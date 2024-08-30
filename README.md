@@ -45,6 +45,7 @@ While the core functionalities focus on project management, there is room for ex
 - **Repositories**: Interact with the database to perform CRUD operations.
 - **Entity**: Define the structure of data used in the application.
 - **Utils**: Utility classes such as `Tools` for generate random number.
+- **tests**: Test case for the application.
 
 ## 🚀 Getting Started
 
@@ -134,4 +135,9 @@ While the core functionalities focus on project management, there is room for ex
    ```bash
    Method : DELETE
    Endpoint : http://localhost:8000/constructions/1
+   ```
+### Run test case
+Run test case command:
+   ```bash
+   php bin/phpunit
    ```
